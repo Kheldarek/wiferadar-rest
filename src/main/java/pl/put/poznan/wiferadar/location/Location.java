@@ -13,5 +13,5 @@ import lombok.*;
 @JsonSerialize
 @JsonDeserialize
 public class Location {
-   private Coordinate latitude, longitude;
+   private double latitude, longitude;
 }
